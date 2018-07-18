@@ -1,0 +1,11 @@
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 40;
+	font-style: bold;
+	color: blue;
+	background-color: lightpink;
+
+}
