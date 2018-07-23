@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> reversing a number</title>
+	<script>
+		function rev_num(){
+	    var n = document.getElementById("input").value; 
+	    var rev = 0, rem = 0;
+		while(n > 0)
+		{
+			rev = n%10;
+			rem = rem*10+rev;
+			n=Math.floor(n/10);
+	
+		}
+		var output=document.getElementById("demo");
+		output.innerHTML=rem;
+
+		
+	}
+	</script>
+	<link rel="stylesheet" type="text/css" href="rev.css">
+</head>
+<body>
+	Enter the number: <input type="number" name="number" id="input">
+	<button id="btn" onclick="rev_num()">Submit</button>
+	<p id="demo">
+</body>
+
+</html>
