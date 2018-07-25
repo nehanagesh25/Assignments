@@ -1,0 +1,25 @@
+body{
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+.container{
+	
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 1px solid #d9d9d9;
+box-shadow: 6px 2px 14px 0px #d9d9d9;
+max-width: 400px;
+width: 400px;
+max-height: 400px;
+height: 400px;
+background: linear-gradient(to right,lightblue,lightgreen);
+
+}
+
+}
