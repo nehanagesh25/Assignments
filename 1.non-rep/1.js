@@ -10,13 +10,15 @@ window.onload = function(){
 			for (var i = 0; i < text.length; i++) {
 			{
 					if(text.indexOf(text.charAt(i))==text.lastIndexOf(text.charAt(i))){
-						alert(text.charAt(i));
+						var k=text.charAt(i);
 						break;
 					}
 			    }
 			   
 				    	
 			}
-				
+
+			var output = document.getElementById("demo");
+			output.innerHTML=k;
 	}
 }

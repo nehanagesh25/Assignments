@@ -2,8 +2,10 @@ window.onload = function(){
 	var button = document.getElementById("btn");
 	
 	button.onclick = function(){
+
 		
 	    var n = document.getElementById("input").value; 
+	    if (n.match(/^\d+/)) {
 	    var rev = 0, rem = 0;
 		while(n > 0)
 		{
@@ -12,6 +14,8 @@ window.onload = function(){
 			n=parseInt(n/10);
 	
 		}
+	}
+	
 		var output=document.getElementById("demo");
 		output.innerHTML=rem;
 		

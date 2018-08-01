@@ -1,0 +1,60 @@
+.layout{
+	/*display: flex;
+	flex-direction: column;*/
+	justify-content: center;
+	align-items: center;
+	margin-top: 10%;
+	margin-left: 20%;
+	font-family: 'Bree Serif', serif;
+	
+
+
+}
+input[type="checkbox"]{
+	width:30px;
+	height:30px;
+	cursor: pointer;
+	box-shadow: 3px 4px;
+
+}
+#amm{
+	margin:20px;
+	padding:15px;
+	border-radius: 20px;
+	outline:none;
+	margin-left: 18%;
+
+
+
+}
+/*#rupee10{
+	margin:10px;
+
+}
+#rupee5{
+	margin:10px;
+	
+}
+#rupee2{
+	margin:10px;
+}
+#rupee1{
+	margin:10px;
+}*/
+#btn{
+	margin:20px;
+	padding:15px;
+	border-radius: 20%;
+	outline:none;
+	box-shadow: 5px 4px ;
+	margin-left: 22%;
+	font-family: 'Bree Serif', serif;
+
+}
+p{
+	margin-left: 16%;
+	font-family: 'Bree Serif', serif;
+
+}
+
+
