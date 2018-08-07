@@ -1,0 +1,65 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="prime.css">
+	<link href="https://fonts.googleapis.com/css?family=Modern+Antiqua" rel="stylesheet">
+	<script>
+		function findprime()
+		{
+			
+			var inp=document.getElementById("input1").value;
+			if(inp<2){
+				
+					document.getElementById("res").innerHTML = "2 is least prime";
+			}
+			else{
+			document.getElementById("res1").innerHTML="prev prime is"+prevprime(inp);
+			document.getElementById("res").innerHTML="next prime is"+nextprime(inp);
+			}
+			function prevprime(inp)
+			{
+				var temp=inp-1;
+				for(var i=2;i<=temp/2;i++){
+					if(temp%i==0){
+						temp--;
+					i=2;
+					}  
+					else{
+						continue;
+						j++;
+						}
+					}
+			return temp;
+			}
+			function nextprime(inp)
+			{
+				
+				
+				
+				inp++;
+				for(var i=2;i<=inp/2;i++){
+					if(inp%i==0){
+						inp++;
+						i=2;
+					}else{
+						continue;
+					}
+				}
+			
+			return inp;
+		}
+}	
+	</script>
+</head> 
+
+<body>
+	<div id="container"> 
+		<p> NEXT PRIME NUMBER:</p>
+
+		<input type="number" id="input1"/>
+		<button type="Submit" id="btn" onclick="findprime()"> Submit</button>
+		<p id="res">  </p>
+		<p id="res1"> </p>
+	</div>
+
+</body>
+</html>
